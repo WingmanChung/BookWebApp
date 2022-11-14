@@ -1,0 +1,105 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+  <div class="greeting text-center">
+      <h1 class="display-4">Welcome</h1>
+      <h2>DISCOVER READ AND CONNECT</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.</p>
+      <div class="index-btns">
+        <button>Discover</button>
+        <button>Read More</button>
+      </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-part" id="readers-choice">
+    <div class="section-header">
+      <h1>Readers Choice</h1>
+      <div class="border-line"></div>
+      <h2>Most voted books of this month</h2>
+    </div>
+    <div class="section-body">
+      <div class="podium-container">
+        <p id="vote-second"><span class="fa fa-star"></span>1205</p>
+        <div class="podium" id="podium-second">
+          <div class="book">
+            <img src="images/Beautifully_broken_michelle_heard.jpg"/>
+            <h1>Beautifully Broken</h1>
+            <p>Michelle Heard</p>
+          </div>
+        </div>
+      </div>
+      <div class="podium-container">
+      <p id="vote-first"><span class="fa fa-star"></span>1488</p>
+        <div class="podium" id="podium-first">
+          <div class="book">
+            <img src="images/Heartless_Heroes_C_Hallman.jpg"/>
+            <h1>Heartless Heroes</h1>
+            <p>C. Hallman</p>
+          </div>
+        </div>
+      </div>
+      <div class="podium-container">
+        <p id="vote-third"><span class="fa fa-star"></span>892</p>
+        <div class="podium" id="podium-third">
+          <div class="book">
+            <img src="images/Captured_by_a_Sinner_Michelle_Heard.jpg"/>
+            <h1>Captured by a Sinner</h1>
+            <p>Michelle Heard</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-part" id="author-month">
+    <div class="section-header">
+      <h1>Rina Kent</h1>
+      <div class="border-line"></div>
+      <h2>Author of this month</h2>
+    </div>
+    <div class="section-body"></div>
+  </div>
+</div>
+
+<div class="container">
+  <div id="recently-added">
+    <h1>Recently added</h1>
+    <div class="shelf">
+      <div class="book">
+        <img src="images/Beautifully_broken_michelle_heard.jpg"/>
+        <h1>Beautifully Broken</h1>
+        <p>Michelle Heard</p>
+      </div>
+      <div class="book">
+        <img src="images/Heartless_Heroes_C_Hallman.jpg"/>
+        <h1>Heartless Heroes</h1>
+        <p>C. Hallman</p>
+      </div>
+      <div class="book">
+        <img src="images/Captured_by_a_Sinner_Michelle_Heard.jpg"/>
+        <h1>Captured by a Sinner</h1>
+        <p>Michelle Heard</p>
+      </div>
+      <div class="book">
+        <img src="images/Heartless_Heroes_C_Hallman.jpg"/>
+        <h1>Heartless Heroes</h1>
+        <p>C. Hallman</p>
+      </div>
+      <div class="book">
+        <img src="images/Captured_by_a_Sinner_Michelle_Heard.jpg"/>
+        <h1>Captured by a Sinner</h1>
+        <p>Michelle Heard</p>
+      </div>
+    </div>
+    <div class="btn">
+      <button class="more-btn">See more new books <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+    </div>
+  </div>
+</div>

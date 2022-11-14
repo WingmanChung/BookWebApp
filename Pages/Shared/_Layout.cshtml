@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BookWebApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BookWebApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-toggleable-xl navbar-light bg-white border-bottom">
+            <div class="container">
+                <a class="navbar-brand" href="/Index">BookWebApp</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-xl-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1" id="navlinks">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/New">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Trending">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Forum">Forum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/About">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <input class="nav-link searchbar" type="text" placeholder="Search by title or author..."/>
+                        </li>
+                        <li class="nav-item">
+                          <div class="nav-btns">
+                            <button class="nav-link text-dark login-btn">Log in</button>
+                            <button class="nav-link text-dark signup-btn">Sign up</button>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="border-bottom mb-3">
+          <div class="container">
+            <ul class="nav nav-tabs" id="navTabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="fantasy-tab" data-bs-toggle="tab" data-bs-target="#fantasy" type="button" role="tab" aria-controls="fantasy" aria-selected="true">Fantasy</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="fiction-tab" data-bs-toggle="tab" data-bs-target="#fiction" type="button" role="tab" aria-controls="fiction" aria-selected="false">Fiction</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="paranormal-tab" data-bs-toggle="tab" data-bs-target="#paranormal" type="button" role="tab" aria-controls="paranormal" aria-selected="false">Paranormal</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="historical-tab" data-bs-toggle="tab" data-bs-target="#historical" type="button" role="tab" aria-controls="historical" aria-selected="false">Historical</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-content">
+            <div class="tab-pane" id="fantasy" role="tabpanel" aria-labelledby="fantasy-tab">
+              <div class="container">
+                Romantic fantasy is a subgenre of fantasy fiction, describing a fantasy story using many of the elements and conventions of the romance genre.
+
+                One of the key features of romantic fantasy involves the focus on relationships, social, political, and romantic. Romantic fantasy has been published by both fantasy lines and romance lines.
+                Some publishers distinguish between "romantic fantasy" where the romance is most important and "fantasy romance" where the fantasy elements are most important. 
+                Others say that "the borderline between fantasy romance and romantic fantasy has essentially ceased to exist, or if it's still there, it's moving back and forth constantly".
+              </div>  
+            </div>
+            <div class="tab-pane" id="fiction" role="tabpanel" aria-labelledby="fiction-tab">
+               <div class="container">
+                   All books are divided into two categories - fiction and non-fiction. Under the fiction are understood all the works that have a fictional plot and fictional heroes. 
+                   Fiction - these are novels, stories, novels, plays and poetry (for both children and adults) ... Usually non-fiction books are textbooks, encyclopedias, dictionaries, monographs, biographies, 
+                   memoirs, journalism, etc. Artistic works are divided into genre literature, mainstream and intellectual prose. What is the mainstream? In the books of this genre, canons and patterns do not belong. 
+                   Readers expect unexpected solutions from them. The main thing in the mainstream is the moral development of the characters, philosophy and ideology. Because the author of the mainstream should 
+                   not only be an excellent storyteller, but also a good psychologist and serious thinker.
+               </div>
+            </div>
+            <div class="tab-pane" id="paranormal" role="tabpanel" aria-labelledby="paranormal-tab">
+               <div class="container">
+                   Paranormal romance is a sub-genre of the romance novel related to paranormal fiction. Paranormal romance focuses on romance and includes elements beyond the range of scientific explanation, 
+                   blending together themes from the genres of urban fantasy, traditional fantasy, science fiction, or horror.
+               </div>
+            </div>
+            <div class="tab-pane" id="historical" role="tabpanel" aria-labelledby="historical-tab">
+              <div class="container">
+                Historical fiction presents a story set in the past, often during a significant time period. In historical fiction, the time period is an important part of the setting and often of the story itself.
+                 
+                Historical fiction may include fictional characters, well-known historical figures or a mixture of the two. Authors of historical fiction usually pay close attention to the details of their stories 
+                (settings, clothing, dialogue, etc.) to ensure that they fit the time periods in which the narratives take place.
+              </div>
+            </div>
+            </div>
+          </div>
+    </header>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <svg width="1440" height="406" viewBox="0 0 1440 406" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M570.762 53.706C443.596 27.8348 151.412 2.52944 0 108.278V406H1440V92.513C1415.88 108.036 1361.76 98.9809 1337.71 92.513C1250.9 60.174 1048.23 7.13784 931.997 53.706C815.769 100.274 642.745 73.1094 570.762 53.706Z" fill="#F89191" fill-opacity="0.37"/>
+          <path d="M750.186 23.0235C450.111 -48.0921 125.031 62.3968 0 126.531V406H1440V23.0235C1335.09 52.6549 1050.26 94.139 750.186 23.0235Z" fill="#E49C97" fill-opacity="0.35"/>
+        </svg>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/activePage.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

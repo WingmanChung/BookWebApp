@@ -1,0 +1,145 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-n28stzgnd9] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+  font-weight: bold;
+}
+
+a[b-n28stzgnd9] {
+  color: #0077cc;
+  font-weight: 600;
+}
+
+#navlinks .nav-link:is(:link, :active, :visited).active[b-n28stzgnd9] {
+  background-color: rgba(228, 156, 151, 0.35);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.btn-primary[b-n28stzgnd9] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-n28stzgnd9], .nav-pills .show > .nav-link[b-n28stzgnd9] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+#navTabs li a[b-n28stzgnd9] {
+  color: #C3C3C3;
+}
+
+#navTabs .nav-link:is(:link, :active, :visited).active[b-n28stzgnd9] {
+  color: #000000;
+}
+
+.border-top[b-n28stzgnd9] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-n28stzgnd9] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-n28stzgnd9] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-n28stzgnd9] {
+  font-size: 1rem;
+  line-height: inherit;
+  outline: none;
+}
+
+#navlinks[b-n28stzgnd9] {
+  align-items: center;
+  justify-content: end;
+  gap: 15px;
+}
+
+.searchbar[b-n28stzgnd9] {
+  width: 333px;
+  height: 29px;
+  border: 1px solid #565656;
+  border-radius: 10px;
+  outline: none;
+  display: flex;
+  text-indent: 25px;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 10px center;
+}
+
+.nav-btns[b-n28stzgnd9] {
+  display: flex;
+}
+
+.login-btn[b-n28stzgnd9], .signup-btn[b-n28stzgnd9] {
+  height: 29px;
+  border: 1px solid #E49C97;
+  display: flex;
+  align-items: center;
+}
+
+.login-btn:hover[b-n28stzgnd9], .signup-btn:hover[b-n28stzgnd9], #navlinks .nav-link:hover[b-n28stzgnd9] {
+  text-decoration: underline;
+}
+
+.login-btn[b-n28stzgnd9] {
+  background-color: #FFFFFF;
+  border-radius: 10px 0px 0px 10px;
+  color: #E49C97 !important;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.signup-btn[b-n28stzgnd9] {
+  background-color: #E49C97;
+  border-radius: 0px 10px 10px 0px;
+  color: #FFFFFF !important;
+  font-weight: 600;
+}
+
+.footer svg[b-n28stzgnd9]{
+  position: absolute;
+  width: 100%;
+}
+
+.nav-tabs .nav-item.show .nav-link[b-n28stzgnd9], .nav-tabs .nav-link.active[b-n28stzgnd9] {
+  background: rgba(192, 225, 255, 0.33);
+  color: black !important;
+}
+
+.tab-content > .active[b-n28stzgnd9] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(192, 225, 255, 0.33);
+}
+
+.nav-tabs[b-n28stzgnd9] {
+  border-bottom: unset;
+}
+
+.nav-tabs .nav-link[b-n28stzgnd9] {
+  border-top: unset;
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+}
+
+#fantasy-tab.active[b-n28stzgnd9], #fantasy.active[b-n28stzgnd9] {
+  background-color: rgba(224, 187, 228, 0.33);
+}
+
+#fiction-tab.active[b-n28stzgnd9], #fiction.active[b-n28stzgnd9] {
+  background-color: rgba(149, 125, 173, 0.33);
+}
+
+#paranormal-tab.active[b-n28stzgnd9], #paranormal.active[b-n28stzgnd9] {
+  background-color: rgba(210, 145, 188, 0.33);
+}
+
+#historical-tab.active[b-n28stzgnd9], #historical.active[b-n28stzgnd9] {
+  background-color: rgba(254, 200, 216, 0.33);
+}

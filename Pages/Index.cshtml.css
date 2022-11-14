@@ -1,0 +1,181 @@
+﻿.greeting {
+  width: 50%;
+  margin: 10%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.greeting h1, h2, p {
+  text-align: left;
+}
+
+.greeting h1 {
+  font-weight: 600;
+}
+
+.greeting h2 {
+  color: #626262;
+  font-size: 16px;
+}
+
+.index-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-btns button {
+  background-color: #FFFFFF;
+  border: 2px solid #E49C97;
+  border-radius: 10px;
+  width: 49%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.index-btns button:hover {
+  background-color: #E49C97;
+  color: white;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+}
+
+.section-part {
+  width: 50%;
+}
+
+.section-header {
+  padding-top: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.section-body {
+  padding-top: 20px;
+  display: inline-flex;
+  width: 80%;
+  overflow: hidden;
+}
+
+.section-header h2 {
+  padding-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+}
+
+#readers-choice {
+  background-color: rgba(12, 54, 92, 0.76);
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#author-month {
+  background-color: rgba(190, 175, 221, 0.76);
+  text-align: center;
+}
+
+.border-line {
+  border: 1px solid #FFFFFF;
+}
+
+#author-month .border-line {
+  border: 1px solid #000000;
+}
+
+.podium-container {
+  width: 33%;
+}
+
+.podium-container p {
+  text-align: center;
+  margin: 0;
+}
+
+.podium {
+  height: 100%;
+  padding-bottom: 15px;
+}
+
+#vote-first span, #vote-second span, #vote-third span {
+  padding-right: 5px;
+  color: #eecf13;
+}
+
+#vote-second {
+  margin-top: 10px;
+}
+
+#vote-third {
+  margin-top: 20px;
+}
+
+#podium-first {
+  padding-top: 25px;
+  background-color: rgba(217, 217, 217, 0.67);
+}
+
+#podium-second {
+  padding-top: 20px;
+  background-color: rgba(217, 217, 217, 0.46);
+}
+
+#podium-third {
+  padding-top: 10px;
+  background-color: rgba(217, 217, 217, 0.18);
+}
+
+.book img {
+  width: 90%;
+}
+
+.book h1 {
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.book p {
+  text-align: center;
+}
+
+#recently-added {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#recently-added h1 {
+  text-align: center;
+  color: #D1837E;
+}
+
+.shelf {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.more-btn {
+  background-color: transparent;
+  color: #E49C97;
+  border: 2px solid #E49C97;
+  border-radius: 20px;
+  width: 25%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.more-btn:hover {
+  background-color: #E49C97;
+  color: white;
+  text-decoration: underline;
+}
